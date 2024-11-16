@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, #040832, #033713);
+  color: white;
+}
+
+.app-container {
+  height: 100vh;
+  width: 100vw;
+}
+.app-container h1 {
+  display: flex;
+  align-items: center;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 10px;
+  margin: 100px 50px auto;
+}
+.app-container h1 img {
+  width: 60px;
+  margin-right: 5px;
+}
+
+.app-container button {
+  background: #1da70e;
+  color: white;
+  font-size: 18px;
+  margin: 65px;
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+}
+.app-container button img {
+  width: 30px;
+  margin-right: 5px;
+}
+.app-container .note-container {
+  margin: 65px;
+}
+
+.note-container .note-input-field {
+  width: 90%;
+  min-height: 100px;
+  background: navajowhite;
+  color: black;
+  font-size: 18px;
+  font-weight: 500px;
+  border-radius: 10px;
+  margin-top: 50px;
+  position: relative;
+  padding: 10px;
+}
+.note-container .note-input-field img {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  width: 40px;
+  cursor: pointer;
+}
+.note-container .note-input-field .delete-icon {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  width: 40px;
+  cursor: pointer;
+}
